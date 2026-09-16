@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的照片集</title>
+    <style>
+        *{box-sizing:border-box;margin:0;padding:0;}
+        body{background:#f5f5f5;padding:30px;font-family:system-ui}
+        h1{text-align:center;margin-bottom:30px;color:#333}
+        .container{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill, minmax(280px,1fr));gap:20px}
+        .card{background:#fff;padding:10px;border-radius:8px;box-shadow:0 2px 8px #0000001a}
+        .card img{width:100%;height:220px;object-fit:cover;border-radius:4px}
+    </style>
+</head>
+<body>
+    <h1>我的个人照片集</h1>
+    <div class="container">
+        <div class="card"><img src="images/798227fa7ee56cc737479f4b5adfe2b6.png" alt="照片1"></div>
+        <div class="card"><img src="images/9e77f2519e96ee7cb5df62825e312c56.png" alt="照片2"></div>
+        <div class="card"><img src="images/7b617b9b3caf87fb638d03d2e4be4555.png" alt="照片3"></div>
+        <div class="card"><img src="images/31e21c1d0b8fec774aa5190daa6b682d.png" alt="照片4"></div>
+    </div>
+</body>
+</html>
